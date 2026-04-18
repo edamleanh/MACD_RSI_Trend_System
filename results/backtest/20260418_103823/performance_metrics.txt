@@ -1,0 +1,25 @@
+=== MACD Strategy - Performance Metrics (in_sample) ===
+
+Total trades      : 102
+Total points      : 237.00
+Net profit        : 23,700,000 VND
+HPR               : 5.93%
+Max Drawdown      : -47.10 pts
+Longest Drawdown  : 57 days
+Sharpe Ratio      : 1.5947
+Final capital     : 423,700,000 VND
+
+=== Parameters ===
+  fast: 8
+  slow: 53
+  signal_period: 15
+  ema_trend_period: 38
+  take_profit: 18
+  cut_loss: 5
+  use_trailing: True
+  trailing_activation: 16
+  trailing_step: 14
+  rsi_period: 13
+  rsi_overbought: 57
+  rsi_oversold: 45
+  fee_per_trade: 0.5

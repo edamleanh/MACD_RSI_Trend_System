@@ -1,0 +1,14 @@
+strategy:
+  cut_loss: 5
+  ema_trend_period: 38
+  fast: 8
+  fee_per_trade: 0.5
+  rsi_overbought: 57
+  rsi_oversold: 45
+  rsi_period: 13
+  signal_period: 15
+  slow: 53
+  take_profit: 18
+  trailing_activation: 16
+  trailing_step: 14
+  use_trailing: true
